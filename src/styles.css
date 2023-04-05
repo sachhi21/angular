@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid aquamarine;
+    padding: 30px;
+    border-radius: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    background: aqua;
+    color: blueviolet;
+    border-radius: 5cm;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn:focus{
+  outline: none;
+
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
